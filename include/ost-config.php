@@ -39,10 +39,10 @@ define('ADMIN_EMAIL','%ADMIN-EMAIL');
 # ---------------------------------------------------
 # Mysql Login info
 define('DBTYPE','mysql');
-define('DBHOST','%CONFIG-DBHOST');
-define('DBNAME','%CONFIG-DBNAME');
-define('DBUSER','%CONFIG-DBUSER');
-define('DBPASS','%CONFIG-DBPASS');
+define('DBHOST','ignitedubai.mysql.database.azure.com');
+define('DBNAME','osticket');
+define('DBUSER','owais@ignitedubai');
+define('DBPASS','P@ssw0rd9790');
 
 # Table prefix
 define('TABLE_PREFIX','%CONFIG-PREFIX');
