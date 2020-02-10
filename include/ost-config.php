@@ -45,7 +45,7 @@ define('DBUSER','owais@ignitedubai');
 define('DBPASS','P@ssw0rd9790');
 
 # Table prefix
-define('TABLE_PREFIX','%CONFIG-PREFIX');
+define('TABLE_PREFIX','ost_');
 
 #
 # SSL Options
