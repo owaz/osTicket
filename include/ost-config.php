@@ -33,7 +33,7 @@ if(OSTINSTALLED!=TRUE){
 define('SECRET_SALT','%CONFIG-SIRI');
 
 #Default admin email. Used only on db connection issues and related alerts.
-define('ADMIN_EMAIL','%ADMIN-EMAIL');
+define('ADMIN_EMAIL','%owaisahmed@outlook.com');
 
 # Database Options
 # ---------------------------------------------------
