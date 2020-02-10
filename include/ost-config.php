@@ -21,19 +21,19 @@ if(!strcasecmp(basename($_SERVER['SCRIPT_NAME']),basename(__FILE__)) || !defined
     die('kwaheri rafiki!');
 
 #Install flag
-define('OSTINSTALLED',FALSE);
-if(OSTINSTALLED!=TRUE){
-    if(!file_exists(ROOT_DIR.'setup/install.php')) die('Error: Contact system admin.'); //Something is really wrong!
-    //Invoke the installer.
-    header('Location: '.ROOT_PATH.'setup/install.php');
-    exit;
-}
+#define('OSTINSTALLED',FALSE);
+#if(OSTINSTALLED!=TRUE){
+ #   if(!file_exists(ROOT_DIR.'setup/install.php')) die('Error: Contact system admin.'); //Something is really wrong!
+  #  //Invoke the installer.
+   # header('Location: '.ROOT_PATH.'setup/install.php');
+    #exit;
+#}
 
 # Encrypt/Decrypt secret key - randomly generated during installation.
 define('SECRET_SALT','%CONFIG-SIRI');
 
 #Default admin email. Used only on db connection issues and related alerts.
-define('ADMIN_EMAIL','%owaisahmed@outlook.com');
+define('ADMIN_EMAIL','owaisahmed@outlook.com');
 
 # Database Options
 # ---------------------------------------------------
